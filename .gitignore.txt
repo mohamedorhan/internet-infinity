@@ -1,0 +1,47 @@
+# ========================
+# Python cache & compiled
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# ========================
+# Virtual Environment
+# ========================
+venv/
+.env/
+.venv/
+
+# ========================
+# Logs & runtime files
+# ========================
+*.log
+logs/
+state/
+
+# ========================
+# System files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE/editor settings
+# ========================
+.vscode/
+.idea/
+*.swp
+
+# ========================
+# Configurations (local only)
+# ========================
+config/settings.json
+config/defaults.json
+
+# ========================
+# Data (keep samples only)
+# ========================
+data/*
+!data/samples/
